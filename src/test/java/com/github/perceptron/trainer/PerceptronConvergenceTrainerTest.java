@@ -4,7 +4,7 @@ import com.github.perceptron.data.Bit;
 import com.github.perceptron.data.FloatArray;
 import com.github.perceptron.data.TrainingData;
 import com.github.perceptron.data.TrainingResult;
-import com.github.perceptron.function.PerceptronFunction;
+import com.github.perceptron.function.Neurons;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -16,9 +16,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class PerceptronConvergenceTrainerTest {
 
     private void assertTrainingResult(final TrainingResult trainingResult, final List<TrainingData> trainingDataList) {
-        final PerceptronFunction perceptron = new PerceptronFunction();
         trainingDataList.forEach(trainingData -> {
-            final Bit output = perceptron.apply(trainingData.input().get(), trainingResult.weights().get(), trainingResult.bias());
+            final Bit output = Neurons.PERCEPTRON.apply(trainingData.input().get(), trainingResult.weights().get(), trainingResult.bias());
             assertEquals(trainingData.expectedOutput(), output);
         });
     }

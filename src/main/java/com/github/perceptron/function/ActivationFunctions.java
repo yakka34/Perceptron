@@ -7,5 +7,6 @@ public class ActivationFunctions {
     }
 
     public static final HeavisideStepFunction HEAVISIDE_STEP_FUNCTION = new HeavisideStepFunction();
+    public static final SigmoidFunction SIGMOID = new SigmoidFunction();
 
 }

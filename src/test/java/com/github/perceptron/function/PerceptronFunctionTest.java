@@ -14,7 +14,7 @@ public class PerceptronFunctionTest {
         final float ONE = 1f;
         final float WEIGHT = -2f;
         final Bias BIAS = new Bias(3);
-        final PerceptronFunction perceptron = new PerceptronFunction();
+        final PerceptronFunction perceptron = Neurons.PERCEPTRON;
 
         assertEquals(Bit.ONE, perceptron.apply(
                 new float[]{ZERO, ZERO},
