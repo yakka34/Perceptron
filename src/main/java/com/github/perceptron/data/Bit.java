@@ -1,4 +1,4 @@
-package com.github.percepton.data;
+package com.github.perceptron.data;
 
 public enum Bit {
 

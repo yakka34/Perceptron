@@ -1,4 +1,4 @@
-package com.github.percepton.function;
+package com.github.perceptron.function;
 
 import org.junit.jupiter.api.Test;
 

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github</groupId>
-	<artifactId>percepton</artifactId>
+	<artifactId>Perceptron</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<java.version>26</java.version>
@@ -49,7 +49,7 @@
 					<compilerArgs>
 						<arg>-XDcompilePolicy=simple</arg>
 						<arg>--should-stop=ifError=FLOW</arg>
-						<arg>-Xplugin:ErrorProne -Xep:NullAway:ERROR -XepOpt:NullAway:AnnotatedPackages=com.github.percepton</arg>
+						<arg>-Xplugin:ErrorProne -Xep:NullAway:ERROR -XepOpt:NullAway:AnnotatedPackages=com.github.perceptron</arg>
 					</compilerArgs>
 					<annotationProcessorPaths>
 						<path>

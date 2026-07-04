@@ -1,6 +1,6 @@
-package com.github.percepton.function;
+package com.github.perceptron.function;
 
-import com.github.percepton.data.Bit;
+import com.github.perceptron.data.Bit;
 
 import java.util.function.Function;
 

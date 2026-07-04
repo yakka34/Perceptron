@@ -1,4 +1,4 @@
-# Percepton
+# Perceptron
 
 Java implementation of Frank Rosenblatt's 1957 Perceptron algorithm with a convergence trainer based on Theorem 11.1: Perceptron Convergence Theorem from *Perceptrons* (expanded edition) by Marvin Minsky and Seymour A. Papert.
 

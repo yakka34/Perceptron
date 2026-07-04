@@ -1,11 +1,11 @@
-package com.github.percepton.trainer;
+package com.github.perceptron.trainer;
 
-import com.github.percepton.data.Bias;
-import com.github.percepton.data.Bit;
-import com.github.percepton.data.FloatArray;
-import com.github.percepton.data.TrainingData;
-import com.github.percepton.data.TrainingResult;
-import com.github.percepton.function.VectorOperations;
+import com.github.perceptron.data.Bias;
+import com.github.perceptron.data.Bit;
+import com.github.perceptron.data.FloatArray;
+import com.github.perceptron.data.TrainingData;
+import com.github.perceptron.data.TrainingResult;
+import com.github.perceptron.function.VectorOperations;
 
 import java.util.Arrays;
 import java.util.List;

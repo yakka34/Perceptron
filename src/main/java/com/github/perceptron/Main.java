@@ -1,4 +1,4 @@
-package com.github.percepton;
+package com.github.perceptron;
 
 public class Main {
 

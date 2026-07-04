@@ -1,7 +1,7 @@
-package com.github.percepton.function;
+package com.github.perceptron.function;
 
-import com.github.percepton.data.Bias;
-import com.github.percepton.data.Bit;
+import com.github.perceptron.data.Bias;
+import com.github.perceptron.data.Bit;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

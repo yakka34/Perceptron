@@ -1,4 +1,4 @@
-package com.github.percepton.function;
+package com.github.perceptron.function;
 
 public class VectorOperations {
 
